@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.gig7.MainActivity"
+    android:layout_marginLeft="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Now Playing Near You"
+    android:drawableRight="@drawable/search1"
+    android:layout_weight="1"
+    android:textStyle="bold"
+    android:textSize="15dp"
+
+    android:textColor="#000000"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="NEW RELEASES"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_weight="1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        >
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="horizontal"
+
+        >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/new2"
+
+        />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/new1"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:layout_marginRight="08dp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/new2"
+            android:layout_marginLeft="08dp"
+            android:layout_marginRight="08dp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/new3"
+            android:layout_marginLeft="08dp"
+            android:layout_marginRight="08dp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/new4"
+            android:layout_marginLeft="08dp"
+            android:layout_marginRight="08dp"
+            />
+
+
+
+    </LinearLayout>
+    </HorizontalScrollView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="IN THEATRES"
+        android:paddingTop="08dp"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        >
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="horizontal"
+
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/new5"
+
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/new4"
+                    android:layout_marginLeft="16dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="08dp"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/new1"
+                    android:layout_marginLeft="08dp"
+                    android:layout_marginRight="08dp"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/holly1"
+                    android:layout_marginLeft="08dp"
+                    android:layout_marginRight="08dp"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/new4"
+                    android:layout_marginLeft="08dp"
+                    android:layout_marginRight="08dp"
+                    />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    >
+
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="05dp"
+            android:layout_marginTop="05dp"
+            android:layout_weight="1"
+            android:background="#1565c0"
+
+            android:text="Fri 6/22"
+            android:textColor="#FFFFFF"
+
+            />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:text="Regal Gallery Place..."
+        android:layout_marginRight="16dp"
+        android:background="#1565c0"
+        android:layout_marginLeft="16dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="05dp"
+        android:layout_marginBottom="05dp"
+        />
+
+</LinearLayout>
+</LinearLayout>
